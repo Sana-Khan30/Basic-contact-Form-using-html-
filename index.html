@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body bgcolor="black">
+    <center>
+    <pre>
+    <table border="9" cellspacing="8" cellpadding="8">
+    <font face="arial" color="White" size="15"><b>Contact form</b></font>
+    <font face="arial" color="White">
+    Please fill in your information and we'll be sending your order in on time.
+    </font>
+    <br>
+    <tr>
+    <td><label for="username"><font face="arial" color="White">Your Name</font></label></td>
+    <td><input type="text" name="username" id="username" placeholder="First Name">  <input type="text"
+    name="username" id="username" placeholder="Last Name"></td>
+    </tr>
+
+    <tr>
+    <td><label for="mail"><font face="arial" color="White">Your Email</font></label></td>
+    <td><input type="email" name="email" id="mail" placeholder="e.g.hello@contact.net" size="48" required></td>
+    </tr>
+
+    <tr>
+    <td><label for="number"><font face="arial" color="White">Phone*</font></label></td>
+    <td><input type="number" name="number" id="number" placeholder="###" min="1234" max="123456789">  <input type="number" name="number" id="" placeholder="###" min="1234" max="12345678">  <input type="number" name="number" id="" placeholder="####" min="1234" max="12345678">
+    </td>
+    </tr>
+
+    <tr>
+    <td><label for="comment"><font face="arial" color="White">Message Subject*</font></label></td>
+    <td>
+    <select name="drop down" id="comment">
+        <option value="others">others</option>
+        <option value="about content">about content</option>
+        <option value="about opinion">about opinion</option>
+    </select>
+    </td>
+    </tr>
+
+    <tr>
+    <td><label for="Message"><font face="arial" color="White">Message*</font></label></td>
+    <td><textarea name="textarea" id="comment"></textarea></td>
+    </tr>
+
+    <tr>
+    <td><label for="comment"><font face="arial" color="White">Verification*</font></label></td>
+    <td><input type="checkbox" name="checkbox" id="comment"><font face="arial" color="White">I'm not a robot</font>   <img src="read captcha.png" width="40" height="30" alt="Verification"></td>
+    </tr>
+
+    <tr>
+    <td colspan="2"><font face="arial" color="White">
+    <button value="submit">SUBMIT FORM</button></font>
+    </td>
+    </tr>
+    </table>
+</pre>
+</center>
+</body>
+
+</html>
